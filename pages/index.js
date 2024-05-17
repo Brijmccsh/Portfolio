@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
+  faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -14,7 +15,7 @@ const Home = () => {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "BG(14).jpg" }} // Updated BG
+        style={{ backgroundImage: "url(BG(14).jpg)" }} // Updated BG
       ></div>
 
       {/* Content */}
@@ -56,6 +57,14 @@ const Home = () => {
               <a target="_blank" href="https://linkedin.com/in/brijmccsh/">
                 <FontAwesomeIcon
                   icon={faLinkedin}
+                />
+              </a>
+            </button>
+            {/* Google Scholar button */}
+            <button className="text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-500">
+              <a target="_blank" href="https://scholar.google.com/">
+                <FontAwesomeIcon
+                  icon={faGoogle}
                 />
               </a>
             </button>
