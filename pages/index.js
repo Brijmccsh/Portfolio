@@ -14,12 +14,12 @@ const Home = () => {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url(BG(14).jpg)" }} // Updated BG
+        style={{ backgroundImage: "BG(14).jpg" }} // Updated BG
       ></div>
 
       {/* Content */}
       <div className="text-center md:text-left md:flex justify-center m-auto relative z-10">
-        <img className="mx-auto w-64 h-64 rounded-full" src="/images/profile.png" alt="Profile" /> {/* image */}
+        <img className="mx-auto w-64 h-64 rounded-full" src="profile.png" alt="Profile" /> {/* image */}
         <div className="my-auto p-6 text-lg text-white">
           <div className="font-display font-semibold text-3xl">
             Brijesh Tiwari
