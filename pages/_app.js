@@ -32,7 +32,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
         <meta name="theme-color" content="#0d9488" />
-        <title>Rohit Nema | Welcome :)</title>
+        <title>Brijesh Tiwari | Hi</title>
       </Head>
       <Component {...pageProps}>
       </Component>
