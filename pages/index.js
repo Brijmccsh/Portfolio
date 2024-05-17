@@ -10,10 +10,17 @@ import {
 
 const Home = () => {
   return (
-    <div className="flex h-screen" style={{ backgroundColor: "#e6e6fa", color: "#98ff98" }}>
-      <div className="text-center md:text-left md:flex justify-center m-auto">
+    <div className="flex h-screen relative">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url(BG(14).jpg)" }} // Updated BG
+      ></div>
+
+      {/* Content */}
+      <div className="text-center md:text-left md:flex justify-center m-auto relative z-10">
         <img className="mx-auto w-64 h-64 rounded-full" src="/images/profile.png" alt="Profile" /> {/* image */}
-        <div className="my-auto p-6 text-lg">
+        <div className="my-auto p-6 text-lg text-white">
           <div className="font-display font-semibold text-3xl">
             Brijesh Tiwari
           </div>
