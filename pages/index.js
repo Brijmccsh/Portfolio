@@ -15,7 +15,7 @@ const Home = () => {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "BG(5).jpg" }} // Updated BG
+        style={{ backgroundImage: "url/(BG(14).jpg)" }} // Updated BG
       ></div>
 
       {/* Content */}
