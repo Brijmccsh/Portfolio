@@ -15,7 +15,7 @@ const Home = () => {
         <img className="mx-auto w-64 h-64 rounded-full" src="/images/profile.png" alt="Profile" /> {/* image */}
         <div className="my-auto p-6 text-lg">
           <div className="font-display font-semibold text-3xl">
-            Rohit Nema
+            Brijesh Tiwari
           </div>
           <div>
             Computer Science at Syracuse University
